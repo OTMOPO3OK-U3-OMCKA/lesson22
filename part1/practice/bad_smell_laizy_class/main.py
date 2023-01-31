@@ -22,14 +22,6 @@ class Field:
         pass
 
 
-class FieldAdapter:
-    def __init__(self, field: Field):
-        self.field = field
-
-    def set_unit(self, x, y, unit: Unit):
-        self.field.set_unit(x, y, unit)
-
-
 class Main:
     def __init__(self):
         self.field = Field()
